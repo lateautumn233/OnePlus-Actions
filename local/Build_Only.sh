@@ -136,7 +136,7 @@ if [ "$bbg" = "On" ]; then
 fi
 
 echo "📝 正在复制补丁文件..."
-git clone https://github.com/Xiaomichael/kernel_patches.git
+git clone https://github.com/lateautumn233/kernel_patches.git
 git clone https://github.com/ShirkNeko/SukiSU_patch.git
 
 cd kernel_platform

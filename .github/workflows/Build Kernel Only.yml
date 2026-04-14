@@ -264,7 +264,7 @@ jobs:
         run: |
           cd kernel_workspace
           echo "⬇️ 下载ZRAM补丁..."
-          git clone https://github.com/Xiaomichael/kernel_patches.git
+          git clone https://github.com/lateautumn233/kernel_patches.git
           git clone https://github.com/ShirkNeko/SukiSU_patch.git
           
           cd kernel_platform

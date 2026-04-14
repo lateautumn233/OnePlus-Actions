@@ -187,7 +187,7 @@ fi
 if [ "$KERNEL_VERSION" == "5.10" ]; then
     cd susfs4ksu && git checkout 3b74d50936b03a3fcaef0a5e9b01fbdf7fc1124e && cd ..
 fi
-git clone https://github.com/Xiaomichael/kernel_patches.git
+git clone https://github.com/lateautumn233/kernel_patches.git
 git clone https://github.com/ShirkNeko/SukiSU_patch.git
 
 cd kernel_platform

@@ -157,7 +157,7 @@ echo "🔧 正在克隆所需补丁..."
 if [ "$SUSFS" == "On" ]; then
   git clone https://github.com/cctv18/susfs4oki.git -b oki-${ANDROID_VERSION}-${KERNEL_VERSION}
 fi
-git clone https://github.com/Xiaomichael/kernel_patches.git
+git clone https://github.com/lateautumn233/kernel_patches.git
 git clone https://github.com/ShirkNeko/SukiSU_patch.git
 
 cd kernel_platform
